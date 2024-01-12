@@ -1,7 +1,7 @@
 # DNS-Brute-Force-Python
 O script ```dnsbrute.py``` é uma ferramenta desenvolvida em Python para realizar ataques de força bruta em subdomínios de um domínio-alvo usando consultas de DNS. Ele emprega threads para otimizar o processo, possibilitando a resolução de múltiplos subdomínios simultaneamente.
 
-Este repositório também possui o arquivo [melhorias]() que é usado para adicionar anotações de possíveis melhorias a serem implementadas no no script.
+Este repositório também possui o arquivo [melhorias](https://github.com/arthurcortesr/DNS-Brute-Force-Python/blob/main/melhorias.md) que é usado para adicionar anotações de possíveis melhorias a serem implementadas no no script.
 
 <br>
 
