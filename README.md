@@ -45,7 +45,7 @@ subdomain3.example.com ---> 192.168.1.103
 <br>
 
 
-## **Funcionalidades##
+## **Funcionalidades**
 
 1. Ataque de Força Bruta em Subdomínios: O script realiza um ataque de força bruta em subdomínios do domínio-alvo, utilizando uma lista de palavras fornecida.
 2. -h, --help: Exibe a mensagem de ajuda.
