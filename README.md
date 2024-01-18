@@ -52,10 +52,8 @@ subdomain3.example.com ---> 192.168.1.103
 3. --threads THREADS: Número de threads para consultas em paralelo (padrão: 10).
 4. --timeout TIMEOUT: Tempo limite para cada consulta de DNS (padrão: 1 segundo).
 5. --user-agent USER_AGENT: Cabeçalho de Agente do Usuário para as consultas de DNS.
-6. A saída é colorida para facilitar a identificação de resultados bem-sucedidos (verde) e erros (vermelho).
-7. Erros de resolução, como NXDOMAIN, são destacados em vermelho.
-8. O script trata erros de resolução, como NXDOMAIN, e fornece informações detalhadas sobre esses erros.
-9. Se nenhum argumento for fornecido, o script exibe uma mensagem personalizada com instruções de uso e um exemplo.
+6. A saída é colorida para facilitar a identificação de resultados bem-sucedidos (verde).
+7. Se nenhum argumento for fornecido, o script exibe uma mensagem personalizada com instruções de uso e um exemplo.
 
 <br>
 
