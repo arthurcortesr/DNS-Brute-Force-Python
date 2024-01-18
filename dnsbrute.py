@@ -16,6 +16,8 @@ print(f'--------------------------------')
 print(f'| {COR_PKAS}Pk\'s Academy{RESET} - {COR_DNS}DNS BRUTE FORCE{RESET} |')
 print(f'--------------------------------')
 print(f'\n')
+print(f'Fazendo Brute Force')
+print(f'\n')
 
 def resolve_subdomain(subdomain, domain, user_agent=None):
     try:
@@ -23,9 +25,9 @@ def resolve_subdomain(subdomain, domain, user_agent=None):
         headers = {'User-Agent': user_agent} if user_agent else {}
         ip_address = socket.gethostbyname(f'{subdomain}.{domain}')
         print(f'{COR_VERDE}{subdomain}.{domain} ---> {ip_address}{RESET}')
-    except socket.gaierror as e:
-        # Registra exceções de resolução (NXDOMAIN)
-        print(f'{COR_ERRO}Erro ao resolver {subdomain}.{domain}: {e}{RESET}')
+    except socket.gaierror:
+        # Não faz nada se ocorrer uma exceção de resolução (NXDOMAIN)
+        pass
 
 def dns_brute_force(domain, wordlist, num_threads=10, timeout=1, user_agent=None):
     # Verifica a existência do arquivo de lista de palavras
